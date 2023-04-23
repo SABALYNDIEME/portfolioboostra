@@ -1,0 +1,59 @@
+body{
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin: auto;
+}
+.forma{
+    border: 3px solid rgb(231, 177, 152);
+    height: 250px;
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.grid{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    align-items: center;
+}
+.bi::before {
+    display: inline-block;
+    content: "";
+    vertical-align: -.125em;
+    background-repeat: no-repeat;
+    font-size: 60px;
+    color: rgb(247, 187, 165);
+  }
+.competence{
+display: grid;
+grid-template-columns: repeat(2,1fr);
+gap: 20px;
+}
+.interet{
+    margin-top: 40px;
+    height: 350px;
+    background-color: blue;
+}
+#Formations{
+    background-color: blue;
+    color: white;
+}
+.colaa{
+    display: flex;
+    gap: 10px;
+}
+.cola{
+    border: 3px solid white;
+    background-color: rgb(247, 187, 165);
+}
+.reference{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+}
+p{
+    font-family: inherit;
+    font-size: 20px;
+}
+span{
+   color:  rgb(247, 187, 165);
+}
